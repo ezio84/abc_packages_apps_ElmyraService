@@ -39,35 +39,63 @@
     <string name="setting_sensitivity_light">Light squeeze</string>
     <string name="setting_sensitivity_firm">Firm squeeze</string>
     <string name="setting_screen_off_title">Allow when screen is off</string>
-    <string name="setting_screen_off_summary">May increase false triggers</string>
+    <string name="setting_screen_off_summary">Trigger action if proximity sensor is not covered</string>
     <string name="setting_action_title">On squeeze</string>
 
     <!-- Actions -->
     <string name="action_screenshot_name">Take screenshot</string>
+    <string name="action_partial_screenshot_name">Partial Screenshot</string>
     <string name="action_assistant_name">Open assistant</string>
     <string name="action_camera_name">Open camera</string>
     <string name="action_power_menu_name">Open power menu</string>
     <string name="action_mute_name">Mute calls and notifications</string>
     <string name="action_flashlight_name">Turn flashlight on/off</string>
     <string name="action_screen_name">Turn screen on/off</string>
+    <string name="action_skip_track_name">Skip track</string>
+    <string name="action_previous_track_name">Previous track</string>
+    <string name="action_voice_search_name">Voice search</string>
+    <string name="action_volume_panel_name">Volume panel</string>
+    <string name="action_toggle_qs_panel_name">Toggle QS panel</string>
+    <string name="action_toggle_notifications_panel_name">Toggle notifications panel</string>
+    <string name="action_clear_all_notifications_name">Clear all notifications</string>
+    <string name="action_toggle_ringer_modes_name">Toggle ringer modes</string>
 
     <!-- Actions meta -->
     <string-array name="action_values" translatable="false">
         <item>screenshot</item>
+        <item>partial_screenshot</item>
         <item>assistant</item>
         <item>camera</item>
         <item>power_menu</item>
         <item>mute</item>
         <item>flashlight</item>
         <item>screen</item>
+        <item>skip_track</item>
+        <item>previous_track</item>
+        <item>voice_search</item>
+        <item>volume_panel</item>
+        <item>toggle_qs_panel</item>
+        <item>toggle_notifications_panel</item>
+        <item>clear_all_notifications</item>
+        <item>toggle_ringer_modes</item>
     </string-array>
+
     <string-array name="action_names" translatable="false">
         <item>@string/action_screenshot_name</item>
+        <item>@string/action_partial_screenshot_name</item>
         <item>@string/action_assistant_name</item>
         <item>@string/action_camera_name</item>
         <item>@string/action_power_menu_name</item>
         <item>@string/action_mute_name</item>
         <item>@string/action_flashlight_name</item>
         <item>@string/action_screen_name</item>
+        <item>@string/action_skip_track_name</item>
+        <item>@string/action_previous_track_name</item>
+        <item>@string/action_voice_search_name</item>
+        <item>@string/action_volume_panel_name</item>
+        <item>@string/action_toggle_qs_panel_name</item>
+        <item>@string/action_toggle_notifications_panel_name</item>
+        <item>@string/action_clear_all_notifications_name</item>
+        <item>@string/action_toggle_ringer_modes_name</item>
     </string-array>
 </resources>

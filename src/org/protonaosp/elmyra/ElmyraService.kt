@@ -92,12 +92,21 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
     private fun createAction(key: String): Action {
         return when (key) {
             "screenshot" -> ScreenshotAction(this)
+            "partial_screenshot" -> PartialScreenshotAction(this)
             "assistant" -> AssistantAction(this)
             "camera" -> CameraAction(this)
             "power_menu" -> PowerMenuAction(this)
             "mute" -> MuteAction(this)
             "flashlight" -> FlashlightAction(this)
             "screen" -> ScreenAction(this)
+            "skip_track" -> SkipTrackAction(this)
+            "previous_track" -> PreviousTrackAction(this)
+            "voice_search" -> VoiceSearchAction(this)
+            "volume_panel" -> VolumePanelAction(this)
+            "toggle_qs_panel" -> ToggleQsPanelAction(this)
+            "toggle_notifications_panel" -> ToggleNotificationsPanelAction(this)
+            "clear_all_notifications" -> ClearAllNotificationsAction(this)
+            "toggle_ringer_modes" -> ToggleRingerModesAction(this)
 
             else -> DummyAction(this)
         }
@@ -199,7 +208,7 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
         Log.i(TAG, "Gesture detected hostSuspended=${msg.hostSuspended} hapticConsumed=${msg.hapticConsumed}")
 
         if (action.canRun()) {
-            vibrator.vibrate(vibEdgeRelease)
+            //vibrator.vibrate(vibEdgeRelease)
             action.run()
             inGesture = false
         }

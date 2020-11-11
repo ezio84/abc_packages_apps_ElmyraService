@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2020 The Proton AOSP Project
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
+ * Licensed under the Apache License, Version 2.0 (the "License")
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
@@ -23,10 +23,10 @@ import android.os.ServiceManager
 
 import com.android.internal.statusbar.IStatusBarService
 
-class CameraAction(context: Context) : Action(context) {
+class ToggleRingerModesAction(context: Context) : Action(context) {
     val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
     override fun run() {
-        service.triggerElmyraAction("camera")
+        service.triggerElmyraAction("toggleringermodes")
     }
 }

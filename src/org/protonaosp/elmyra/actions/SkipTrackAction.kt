@@ -23,10 +23,10 @@ import android.os.ServiceManager
 
 import com.android.internal.statusbar.IStatusBarService
 
-class CameraAction(context: Context) : Action(context) {
+class SkipTrackAction(context: Context) : Action(context) {
     val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
     override fun run() {
-        service.triggerElmyraAction("camera")
+        service.triggerElmyraAction("skiptrack")
     }
 }
