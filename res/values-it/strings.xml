@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="app_name">Active Edge Service</string>
+
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Active Edge</string>
+    <string name="settings_entry_summary">Squeeze</string>
+    <string name="settings_search_keywords">Active Edge, squeeze, edge, gesti, assist, assistente</string>
+
+    <!-- Items in Active Edge gesture settings -->
+    <string name="setting_enabled_title">Spremi il telefono per avviare un\'azione</string>
+    <string name="setting_enabled_summary">Per avviare un\'azione, spremi e rilascia i bordi del telefono nella parte bassa</string>
+    <string name="setting_sensitivity_title">Sensibilità</string>
+    <string name="setting_sensitivity_light">Squeeze leggero</string>
+    <string name="setting_sensitivity_firm">Squeeze deciso</string>
+    <string name="setting_screen_off_title">Permetti a schermo spento</string>
+    <string name="setting_screen_off_summary">Avvia un\'azione se il sensore di prossimità non è coperto</string>
+    <string name="setting_action_title">Azione squeeze</string>
+
+    <!-- Actions -->
+    <string name="action_screenshot_name">Screenshot</string>
+    <string name="action_partial_screenshot_name">Screenshot parziale</string>
+    <string name="action_assistant_name">Assistente</string>
+    <string name="action_camera_name">Fotocamera</string>
+    <string name="action_power_menu_name">Menu power</string>
+    <string name="action_mute_name">Silenzia chiamate e notifiche</string>
+    <string name="action_flashlight_name">Accendi/spegni torcia</string>
+    <string name="action_screen_name">Accendi/spegni schermo</string>
+    <string name="action_skip_track_name">Prossima traccia</string>
+    <string name="action_previous_track_name">Traccia precedente</string>
+    <string name="action_voice_search_name">Ricerca vocale</string>
+    <string name="action_volume_panel_name">Pannello volume</string>
+    <string name="action_toggle_qs_panel_name">Mostra/nascondi QS</string>
+    <string name="action_toggle_notifications_panel_name">Mostra/nascondi notifiche</string>
+    <string name="action_clear_all_notifications_name">Cancella notifiche</string>
+    <string name="action_toggle_ringer_modes_name">Modalità suoneria</string>
+</resources>
