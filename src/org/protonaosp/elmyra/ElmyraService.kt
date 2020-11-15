@@ -107,6 +107,7 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
             "toggle_notifications_panel" -> ToggleNotificationsPanelAction(this)
             "clear_all_notifications" -> ClearAllNotificationsAction(this)
             "toggle_ringer_modes" -> ToggleRingerModesAction(this)
+            "kill_foreground_app" -> KillAppAction(this)
 
             else -> DummyAction(this)
         }

@@ -59,6 +59,7 @@
     <string name="action_toggle_notifications_panel_name">Toggle notifications panel</string>
     <string name="action_clear_all_notifications_name">Clear all notifications</string>
     <string name="action_toggle_ringer_modes_name">Toggle ringer modes</string>
+    <string name="action_kill_app_name">Kill foreground app</string>
 
     <!-- Actions meta -->
     <string-array name="action_values" translatable="false">
@@ -78,6 +79,7 @@
         <item>toggle_notifications_panel</item>
         <item>clear_all_notifications</item>
         <item>toggle_ringer_modes</item>
+        <item>kill_foreground_app</item>
     </string-array>
 
     <string-array name="action_names" translatable="false">
@@ -97,5 +99,6 @@
         <item>@string/action_toggle_notifications_panel_name</item>
         <item>@string/action_clear_all_notifications_name</item>
         <item>@string/action_toggle_ringer_modes_name</item>
+        <item>@string/action_kill_app_name</item>
     </string-array>
 </resources>

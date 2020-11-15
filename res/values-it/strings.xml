@@ -49,4 +49,5 @@
     <string name="action_toggle_notifications_panel_name">Mostra/nascondi notifiche</string>
     <string name="action_clear_all_notifications_name">Cancella notifiche</string>
     <string name="action_toggle_ringer_modes_name">Modalità suoneria</string>
+    <string name="action_kill_app_name">Termina app corrente</string>
 </resources>
