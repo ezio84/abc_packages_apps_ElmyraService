@@ -30,6 +30,7 @@
     <string name="setting_sensitivity_firm">Squeeze deciso</string>
     <string name="setting_screen_off_title">Permetti a schermo spento</string>
     <string name="setting_screen_off_summary">Avvia un\'azione se il sensore di prossimità non è coperto</string>
+    <string name="setting_screen_off_blocked_summary">Non disponibile con l\'azione corrente</string>
     <string name="setting_action_title">Azione squeeze</string>
 
     <!-- Actions -->
